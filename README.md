@@ -17,3 +17,12 @@ based on the state standard for time measurement units and frequency, with the s
 <p>The standard signals are generated based on a stable frequency module based on highly stable rubidium frequency standards in the Radio Broadcasting Center (RCN) in Solec Kujawski. Using receiving devices located at the headquarters of the Central Office of Measures in Warsaw, employees of the Time and Frequency Laboratory remotely monitor changes in the frequency of the carrier wave, as well as monitor the accuracy of encoded time signals and compare them with the Official Time Scale in force in the Republic of Poland generated and maintained in the Central Office of Measures.
 
 <p>The technique using digitally coded time signals involves emitted radio waves from RCN Solec Kujawski and the use of dedicated receivers by end users. You can download documentation related to the technical parameters of the transmitted time signal and a description of the process of making a simplified receiver of coded official time signals on the 225 kHz carrier wave of the First Polish Radio Program.
+
+<ul>
+<li>In the "/doc" folder you will find documentation (in Polish) describing how to encode and receive a time frame. 
+<li>In the "/Eagle" folder you can find receivers project in Autodesk Eagle format. 
+<li>In the "/KiCAD" folder you can find receivers project in KiCAD format. 
+</ul>
+
+
+<p><i> We are working on translation this documents to English.</i>
