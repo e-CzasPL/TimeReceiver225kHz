@@ -16,4 +16,4 @@ based on the state standard for time measurement units and frequency, with the s
 
 <p>The technique using digitally coded time signals involves emitted radio waves from RCN Solec Kujawski and the use of dedicated receivers by end users. You can download documentation related to the technical parameters of the transmitted time signal and a description of the process of making a simplified receiver of coded official time signals on the 225 kHz carrier wave of the First Polish Radio Program.
 
-<img src="TimeReceiver225kHz.png">
+<img src="TimeReceiver225kHz.png" width=50% height=50%>
