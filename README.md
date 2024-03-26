@@ -22,4 +22,4 @@ based on the state standard for time measurement units and frequency, with the s
 </ul>
 
 
-<p><i> We are working on translation these PDF documents to English.</i>
+<p><i>We are working on translating these PDF documents into English.</i>
