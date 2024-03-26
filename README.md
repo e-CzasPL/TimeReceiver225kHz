@@ -20,8 +20,8 @@ based on the state standard for time measurement units and frequency, with the s
 <br><br><br><br>
 <ul>
 <li>In the "/doc" folder you will find documentation (in Polish) describing how to encode and receive a time frame. 
-<li>In the "/Eagle" folder you can find receivers project in Autodesk Eagle format. 
-<li>In the "/KiCAD" folder you can find receivers project in KiCAD format. 
+<li>In the "/Eagle" folder you can find design of the receiver in Autodesk Eagle format. 
+<li>In the "/KiCAD" folder you can find design of the receiver in in KiCAD format. 
 </ul>
 
 
