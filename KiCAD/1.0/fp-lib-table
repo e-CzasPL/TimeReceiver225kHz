@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "uproszczony_odbiornik")(type "KiCad")(uri "$(KIPRJMOD)/uproszczony_odbiornik.pretty")(options "")(descr ""))
+)
