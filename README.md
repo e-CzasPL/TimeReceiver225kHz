@@ -23,3 +23,6 @@ based on the state standard for time measurement units and frequency, with the s
 
 
 <p><i>We are working on translating these PDF documents into English.</i>
+<p>
+<p>
+<img src="e-czasPL-ENG.png" width=30% height=30%>
