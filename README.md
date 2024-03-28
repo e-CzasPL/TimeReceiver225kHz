@@ -30,7 +30,7 @@ based on the state standard for time measurement units and frequency, with the s
 <td align=left>
 <img src="e-czasPL-ENG.png" width=30% height=30%>
 </td>
-<td align=right>
+<td align=right><img src="LogoGUM2018.png" width=30% height=30%>
 </td>
 </tr>
 </table>
