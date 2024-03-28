@@ -1,4 +1,6 @@
 # TimeReceiver225kHz
+<html>
+<body>
 <p>A simple receiver module for decoding a time frame from a 225kHz transmitter PCSK-225 in Solec Kujawski, Poland
 
 <h2>What's e-Czas</h2>
@@ -22,7 +24,15 @@ based on the state standard for time measurement units and frequency, with the s
 </ul>
 
 
-<p><i>We are working on translating these PDF documents into English.</i>
 <p>
 <p>
+<table border=0 cellpadding=2 cellspacing=0 width="100%"><tr>
+<td align=left>
 <img src="e-czasPL-ENG.png" width=30% height=30%>
+</td>
+<td align=right>
+</td>
+</tr>
+</table>
+</body>
+</html>
