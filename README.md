@@ -26,7 +26,7 @@ based on the state standard for time measurement units and frequency, with the s
 
 <p>
 <p>
-<table border=0 cellpadding=2 cellspacing=0 width="100%"><tr>
+<table border=0 cellpadding=0 cellspacing=0 width="100%" style="b><tr>
 <td align=left>
 <img src="e-czasPL-ENG.png" width=30% height=30%>
 </td>
