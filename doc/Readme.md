@@ -1,4 +1,4 @@
-Distribution of Polish official time on long radio waves, using the 225 kHz carrier wave of the First Polish Radio Program - frame structure, transmitted data and their purpose (polish language).
+Distribution of Polish official time on long radio waves, using the 225 kHz carrier wave of the First Polish Radio Program - frame structure, transmitted data and their purpose.
 
 Wersja polska
 1. e-CzasPL-Opis-projektu-przykladowego-modulu-odbiorczego-e-Czas-Radio.pdf - dokumentacja do prostego odbiornika sygnałów czasu z nadajnika PCSK-225
