@@ -20,7 +20,9 @@ based on the state standard for time measurement units and frequency, with the s
 <ul>
 <li>In the "/doc" folder you will find documentation (in Polish) describing how to encode and receive a time frame. 
 <li>In the "/Eagle" folder you can find design of the receiver in Autodesk Eagle format. 
-<li>In the "/KiCAD" folder you can find design of the receiver in in KiCAD format (comming soon). 
+<li>In the "/KiCAD" folder you can find design of the receiver in in KiCAD format. 
+<li>In the "/Firmware" folder you can find firmware for DSPIC33FJ128GP804 processor. 
+
 </ul>
 
 
