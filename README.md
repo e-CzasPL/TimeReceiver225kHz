@@ -10,7 +10,7 @@
 <h2>What's e-Czas Radio?</h2>
 
 <p>The e-Czas Radio service is used to distribute coded official time signals in the territory of the Republic of Poland using long radio waves. End-user synchronization accuracy: &lt;0.01 s
-<img src="TimeReceiver225kHz.png" alt="Time Receiver 225kHz" width=33% height=33% align="left">
+<img src="img/TimeReceiver225kHz.png" alt="Time Receiver 225kHz" width=33% height=33% align="left">
 <p>As part of the e-CzasPL project, a service was launched for emitting coded digital time signals on long waves, using the 225 kHz carrier wave of the First Polish Radio Program, from a transmitter located in Poland (a technique similar to the DCF77 (Germany), WWVB (USA), JJY (Japan) system, but based on signal phase modulation), which creates a generally available option to synchronize any time-measuring device with the official time in the Republic of Poland using cheap, energy-saving and simple receiving devices. This technique allows many time-measuring devices to be synchronized to the official time in the Republic of Poland with an accuracy of several or a dozen milliseconds. The system is an additional (redundant) source of time information for users located in Poland.
 <p>The standard signals are generated based on a stable frequency module based on highly stable rubidium frequency standards in the Radio Broadcasting Center (RCN) in Solec Kujawski. Using receiving devices located at the headquarters of the Central Office of Measures in Warsaw, employees of the Time and Frequency Laboratory remotely monitor changes in the frequency of the carrier wave, as well as monitor the accuracy of encoded time signals and compare them with the Official Time Scale in force in the Republic of Poland generated and maintained in the Central Office of Measures.
 
@@ -54,7 +54,7 @@ i częstotliwości, posiadającego status (gwarancję) czasu urzędowego oraz us
 W efekcie powstała ogólnodostępna możliwość zsynchronizowania z czasem urzędowym dowolnego urządzenia odmierzającego czas na obszarze Polski i dużej części Europy przy wykorzystaniu tanich, energooszczędnych i nieskomplikowanych urządzeń odbiorczych. Wykorzystanie tej techniki pozwala na zsynchronizowanie do czasu urzędowego na obszarze RP wielu urządzeń odmierzających czas z dokładnością kilku lub kilkunastu milisekund. System będzie dodatkowym (redundantnym) źródłem informacji o czasie dla użytkowników znajdujących się na terytorium Polski.
 
 <p>Usługa Radia e-Czas służy do dystrybucji kodowanych oficjalnych sygnałów czasu na terytorium Rzeczypospolitej Polskiej za pomocą fal długich radiowych. Dokładność synchronizacji z użytkownikiem końcowym: <0,01 s
-<img src="TimeReceiver225kHz.png" alt="Odbiornik czasu 225kHz" width=33% height=33% align="left">
+<img src="img/TimeReceiver225kHz.png" alt="Odbiornik czasu 225kHz" width=33% height=33% align="left">
 <p>W ramach projektu e-CzasPL uruchomiono usługę emisji kodowanych cyfrowych sygnałów czasu na falach długich, wykorzystując falę nośną 225 kHz Pierwszego Programu Polskiego Radia, z nadajnika znajdującego się w Polsce (technika zbliżona do systemu DCF77 (Niemcy), WWVB (USA), JJY (Japonia), ale oparta na modulacji fazy sygnału),  co stwarza ogólnodostępną możliwość synchronizacji dowolnego urządzenia mierzącego czas z czasem urzędowym w Rzeczypospolitej Polskiej za pomocą tanich, energooszczędnych i prostych urządzeń odbiorczych. Technika ta pozwala na synchronizację wielu urządzeń do pomiaru czasu z czasem urzędowym w Rzeczypospolitej Polskiej z dokładnością do kilku lub kilkunastu milisekund. System jest dodatkowym (redundantnym) źródłem informacji o czasie dla użytkowników znajdujących się na terenie Polski.
 <p>Sygnały standardowe generowane są w oparciu o moduł częstotliwości stabilnej oparty na wysoce stabilnych wzorcach częstotliwości rubidowych w Radiostacji Nadawczej (RCN) w Solcu Kujawskim. Pracownicy Laboratorium Czasu i Częstotliwości zdalnie monitorują zmiany częstotliwości częstotliwości fali nośnej, a także monitorują dokładność kodowanych sygnałów czasowych i porównują je z obowiązującą w Rzeczypospolitej Polskiej Oficjalną Skalą Czasu generowaną i utrzymywaną w Głównym Urzędzie Miar.
 
@@ -92,9 +92,9 @@ W sekcji "Universal Serial Bus devices"<br><img src="img/Picture2.png"><br>Jeże
 <p>
 <table border=0 cellpadding=0 cellspacing=0 width="100%"><tr>
 <td align=left>
-<img src="e-czasPL-ENG.png" width=30% height=30%>
+<img src="img/e-czasPL-ENG.png" width=30% height=30%>
 </td>
-<td align=right><img src="LogoGUM2018.png" width=30% height=30%>
+<td align=right><img src="img/LogoGUM2018.png" width=30% height=30%>
 </td>
 </tr>
 </table>
