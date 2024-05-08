@@ -42,11 +42,10 @@ In the "Universal Serial Bus devices"<br><img section src="img/Picture2.png"><br
 <li>Turn off the power, disconnect the programmer
 </ol>
 
-<h3>Prosty moduł odbiorczy do dekodowania ram czasowych z nadajnika PCSK-225 225kHz w Solcu Kujawskim</h3>
+<h3>Prosty moduł odbiorczy do dekodowania ramek czasu z nadajnika PCSK-225 225kHz w Solcu Kujawskim</h3>
 
 <h2>Co to jest e-Czas</h2>
-Jest tu usługa dostarczenia wiarygodnej i niezawodnej dystrybucji sygnałów czasu urzędowego, obowiązującego na obszarze Rzeczypospolitej Polskiej i sygnałów polskiej realizacji międzynarodowego uniwersalnego czasu koordynowanego UTC(PL), generowanych w oparciu o państwowy wzorzec jednostek miar czasu
-i częstotliwości, posiadającego status (gwarancję) czasu urzędowego oraz usługi monitorowania synchronizacji.
+Jest tu usługa dystrybucji wiarygodnej i niezawodnej sygnałów czasu urzędowego, obowiązującego na obszarze Rzeczypospolitej Polskiej i sygnałów polskiej realizacji międzynarodowego uniwersalnego czasu koordynowanego UTC(PL), generowanych w oparciu o państwowy wzorzec jednostek miar czasu i częstotliwości, posiadającego status (gwarancję) czasu urzędowego oraz usługi monitorowania synchronizacji.
 
 <h2>Co to jest e-Czas Radio</h2>
 
