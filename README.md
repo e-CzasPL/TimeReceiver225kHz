@@ -87,7 +87,7 @@ W sekcji "Universal Serial Bus devices"<br><img src="img/Picture2.png"><br>Jeże
 
 
 
-<p>
+<p>Jurek K. Kowalski
 <p>
 <table border=0 cellpadding=0 cellspacing=0 width="100%"><tr>
 <td align=left>
