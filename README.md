@@ -48,6 +48,9 @@
 
 </ul>
 
+<h3>Power</h3>
+<p>The best solution is to use a 5V power supply, e.g. USB). Current consumption is approximately 100mA @ 5V.</p>
+
 
 <h2 id="en3">Flash programming guide</h2>
 <p>I use <a href="https://www.microchip.com/en-us/development-tool/PG164150" target=_blank>PICKIT5, which is not much more expensive than the previous ones and can program without a computer, in the "field." The instructions below describe installing the required software in a Windows 11 environment.
@@ -99,7 +102,8 @@ W efekcie powstała ogólnodostępna możliwość zsynchronizowania z czasem urz
 <li>W folderze "/Firmware" można znaleźć oprogramowanie układowe dla DSPIC33FJ128GP804 procesora w formacie HEX. 
 
 </ul>
-
+<h3>Zasilanie</h3>
+<p>Najlepszym rozwiązaniem jest użycie zasilania 5V np. USB). Pobór prądu wynosi ok 100mA przy 5V.</p>
 
 <h2 id="pl3">Instrukcja programowania procesora</h2>
 <p>Ja używam <a href="https://www.microchip.com/en-us/development-tool/PG164150" target=_blank>PICKIT5, niewiele droższy od poprzednich a mający dodatkowo możliwość programowania bez komputera, w "polu". Poniżej opisuje instalację wymaganego oprogramowania w środowisku Windows 11.
