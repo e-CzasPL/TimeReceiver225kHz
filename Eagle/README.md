@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<p>Pliki Gerber z projektu Eagle zawierają błąd. Nalezy stosować pliki z projektu KiCAD.
+<p>Pliki Gerber z projektu Eagle zawierają błąd. Należy stosować pliki z projektu KiCAD.
 
 <p>Jurek K. Kowalski
 <p>
