@@ -20,9 +20,9 @@
 </ul>
 <h2 id="en0">Changes</h2>
 <ul>
-  <li><b>2024-06-11:</b>b> Damian Jabłoński found a mistake in the scheme. This caused the processor to operate unstablely. Resistor R2 20k (shown in the current schematic) should be added to fix the error.</li>
+  <li><b>2024-06-11:</b> Damian Jabłoński found a mistake in the scheme. This caused the processor to operate unstablely. Resistor R2 20k (shown in the current schematic) should be added to fix the error.</li>
    <li><b>2024-06-12:</b> 
-   The repository contains corrected versions of the project files in KiCAD. In KiCAD/1.0/bom you can find the interactive BOM in HTML. In KiCAD/1.0/production you can find production (Gerber) files for fixed PCB.
+   The repository contains corrected versions of the project files in KiCAD. In the KiCAD/1.0/bom folder you can find the interactive BOM in HTML. In the KiCAD/1.0/production folder, you can find production (Gerber) files for fixed PCB.
    </li>
 </ul>
  
@@ -36,29 +36,29 @@
 <p>The e-Czas Radio service is used to distribute coded official time signals in the territory of the Republic of Poland using long radio waves. End-user synchronization accuracy: &lt;0.01 s
 <img src="img/TimeReceiver225kHz.png" alt="Time Receiver 225kHz" width=33% height=33% align="left">
 <p>As part of the e-CzasPL project, a service was launched for emitting coded digital time signals on long waves, using the 225 kHz carrier wave of the First Polish Radio Program, from a transmitter located in Poland (a technique similar to the DCF77 (Germany), WWVB (USA), JJY (Japan) system, but based on signal phase modulation), which creates a generally available option to synchronize any time-measuring device with the official time in the Republic of Poland using cheap, energy-saving and simple receiving devices. This technique allows many time-measuring devices to be synchronized to the official time in the Republic of Poland with an accuracy of several or a dozen milliseconds. The system is an additional (redundant) source of time information for users located in Poland.
-<p>The standard signals are generated based on a stable frequency module based on highly stable rubidium frequency standards in the Radio Broadcasting Center (RCN) in Solec Kujawski. Using receiving devices located at the headquarters of the Central Office of Measures in Warsaw, employees of the Time and Frequency Laboratory remotely monitor changes in the frequency of the carrier wave, as well as monitor the accuracy of encoded time signals and compare them with the Official Time Scale in force in the Republic of Poland generated and maintained in the Central Office of Measures.
+<p>The standard signals are generated using a stable frequency module based on highly stable rubidium frequency standards in the Radio Broadcasting Center (RCN) in Solec Kujawski. Using receiving devices located at the headquarters of the Central Office of Measures in Warsaw, employees of the Time and Frequency Laboratory remotely monitor changes in the frequency of the carrier wave, as well as monitor the accuracy of encoded time signals and compare them with the Official Time Scale in force in the Republic of Poland generated and maintained in the Central Office of Measures.
 
 <p>The technique using digitally coded time signals involves emitted radio waves from RCN Solec Kujawski and the use of dedicated receivers by end users. You can download documentation related to the technical parameters of the transmitted time signal and a description of the process of making a simplified receiver of coded official time signals on the 225 kHz carrier wave of the First Polish Radio Program.
 <br><br>
 <ul>
-<li>In the "/doc" folder you will find documentation (in Polish) describing how to encode and receive a time frame. 
-<li>In the "/Eagle" folder you can find design of the receiver in Autodesk Eagle format. 
-<li>In the "/KiCAD" folder you can find design of the receiver in in KiCAD format. 
-<li>In the "/Firmware" folder you can find firmware for DSPIC33FJ128GP804 processor in HEX format. 
+<li>In the "/doc" folder, you will find documentation (in Polish) describing how to encode and receive a time frame. 
+<li>In the "/Eagle" folder, you can find the design of the receiver in Autodesk Eagle format. 
+<li>In the "/KiCAD" folder, you can find the design of the receiver in KiCAD format. 
+<li>In the "/Firmware" folder, you can find firmware for the DSPIC33FJ128GP804 processor in HEX format. 
 
 </ul>
 
 
 <h2 id="en3">Flash programming guide</h2>
-<p>I use <a href="https://www.microchip.com/en-us/development-tool/PG164150" target=_blank>PICKIT5, which is not much more expensive than the previous ones and has the ability to program without a computer, in the "field". Below it describes the installation of the required software in a Windows 11 environment.
+<p>I use <a href="https://www.microchip.com/en-us/development-tool/PG164150" target=_blank>PICKIT5, which is not much more expensive than the previous ones and can program without a computer, in the "field." The instructions below describe installing the required software in a Windows 11 environment.
 <ol>p
 <li>Install <a href="https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide" target=_blank>MPLAB X IDE</a>
 <li>When you install MPLAB and connect PICKIT5 to USB, sometimes the system doesn't recognize it properly. Then open "Device Manager" and check the "Ports (COM & LPT) section. It should look like this:<br><img src="img/Picture1.png"><br>
 In the "Universal Serial Bus devices"<br><img section src="img/Picture2.png"><br>If no drivers are installed, this will show<br>><img src="img/Picture4.png">
 <br>In the "Microchip Tools"<br><img section src="img/Picture3.png">
-<br>If the last section does not exist, you will need to update the drivers on your device, which will appear in the "Universal Serial Bus devices" section.
-<li>Without the correct driver, the system will show the error "Failed to get Device ID. Please make sure the target device is attached and try the operation again."
-<li> check the 3V3 power supply at the output of the LM1117 stabilizer
+<br>If the last section does not exist, you must update the drivers on your device, which will appear in the "Universal Serial Bus devices" section.
+<li>Without the correct driver, the system will show the error "Failed to get Device ID. Please ensure the target device is attached and try the operation again."
+<li>Check the 3V3 power supply at the output of the LM1117 stabilizer
 <li>Connect the PICKIT5 programmer to the connector on the board. (pins 1 to 5)
 <li>Run MPLAB IPE - specify the path to the HEX file, processor type<br><img src="img/Picture6.png">
 <li>Click "Connect", the board must be powered<br><img src="img/Picture7.png">
@@ -70,7 +70,12 @@ In the "Universal Serial Bus devices"<br><img section src="img/Picture2.png"><br
 
 
 <h2 id="pl0">Zmiany</h2>
-
+<ul>
+  <li><b>2024-06-11:</b> Dziękuję Damianowi Jabłońskiemu, który znalazł błąd w schemacie i opracował poprawkę. Błąd skutkował niestabilną pracą procesora. Rozwiązaniem jest dolutowanie resystora R2 między pinem 3 złacza SV2 a VDD rezystora 20k (R2). Poprawka naniesiona jest na aktualną wersję projektu w KiCAD</li>
+   <li><b>2024-06-12:</b> 
+   Repozytorium zawiera poprawione pliki projektu. W folderze KiCAD/1.0/bom znajdziesz interaktywny BOM w HTML ułatwiający montaż, w foderze KiCAD/1.0/production są aktualne pliki produkcyjne (Gerber) poprawionego PCB - można je np. wysłać do produkcji (bez rozpakowania).
+   </li>
+</ul>
 
 <h2 id="pl1">Co to jest e-Czas</h2>
 Jest tu usługa dystrybucji wiarygodnej i niezawodnej sygnałów czasu urzędowego, obowiązującego na obszarze Rzeczypospolitej Polskiej i sygnałów polskiej realizacji międzynarodowego uniwersalnego czasu koordynowanego UTC(PL), generowanych w oparciu o państwowy wzorzec jednostek miar czasu i częstotliwości, posiadającego status (gwarancję) czasu urzędowego oraz usługi monitorowania synchronizacji.
