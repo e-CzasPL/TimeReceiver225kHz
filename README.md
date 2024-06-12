@@ -3,6 +3,21 @@
 <body>
 <H3>A simple receiver module for decoding a time frame from a 225kHz transmitter PCSK-225 in Solec Kujawski, Poland</h3>
 
+<H2>Content</H2>
+<h3>English</h3>
+<ul>
+  <li>Changes</li>
+  <li>>What's e-Czas</li>
+  <li>What's e-Czas Radio?</li>
+  <li>Flash programming guide</li>
+</ul>
+<h3>Polski</h3>
+<ul>
+<li>Co to jest e-Czas?</li>
+<li>Co to jest e-Czas Radio?</li>  
+<li>Instrukcja programowania procesora</li>
+</ul>
+
 <h2>What's e-Czas</h2>
 
 <p>Providing the service of reliable and reliable distribution of official time signals valid in the territory of the Republic of Poland and signals of the Polish implementation of the international coordinated universal time UTC (PL), based on the state standard for time measurement units and frequency, with the status (guarantee) of official time and synchronization monitoring service.
@@ -25,7 +40,7 @@
 </ul>
 
 
-<h2>Programming</h2>
+<h2>Flash programming guide</h2>
 <p>I use <a href="https://www.microchip.com/en-us/development-tool/PG164150" target=_blank>PICKIT5, which is not much more expensive than the previous ones and has the ability to program without a computer, in the "field". Below it describes the installation of the required software in a Windows 11 environment.
 <ol>p
 <li>Install <a href="https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide" target=_blank>MPLAB X IDE</a>
