@@ -71,7 +71,7 @@ In the "Universal Serial Bus devices"<br><img section src="img/Picture2.png"><br
 
 <h2 id="pl0">Zmiany</h2>
 <ul>
-  <li><b>2024-06-11:</b> Dziękuję Damianowi Jabłońskiemu, który znalazł błąd w schemacie i opracował poprawkę. Błąd skutkował niestabilną pracą procesora. Rozwiązaniem jest dolutowanie resystora R2 między pinem 3 złacza SV2 a VDD rezystora 20k (R2). Poprawka naniesiona jest na aktualną wersję projektu w KiCAD</li>
+  <li><b>2024-06-11:</b> Dziękuję Damianowi Jabłońskiemu, który znalazł błąd w schemacie i opracował poprawkę. Błąd skutkował niestabilną pracą procesora. Rozwiązaniem jest dolutowanie rezystora R2 między pinem 3 złącza SV2 a VDD rezystora 20k (R2). Poprawka naniesiona jest na aktualną wersję projektu w KiCAD</li>
    <li><b>2024-06-12:</b> 
    Repozytorium zawiera poprawione pliki projektu. W folderze KiCAD/1.0/bom znajdziesz interaktywny BOM w HTML ułatwiający montaż, w foderze KiCAD/1.0/production są aktualne pliki produkcyjne (Gerber) poprawionego PCB - można je np. wysłać do produkcji (bez rozpakowania).
    </li>
