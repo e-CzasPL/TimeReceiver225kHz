@@ -103,7 +103,7 @@ W efekcie powstała ogólnodostępna możliwość zsynchronizowania z czasem urz
 
 </ul>
 <h3>Zasilanie</h3>
-<p>Najlepszym rozwiązaniem jest użycie zasilania 5V np. USB). Pobór prądu wynosi ok 100mA przy 5V.</p>
+<p>Najlepszym rozwiązaniem jest użycie zasilania 5V np. USB. Pobór prądu wynosi ok 100mA przy 5V.</p>
 
 <h2 id="pl3">Instrukcja programowania procesora</h2>
 <p>Ja używam <a href="https://www.microchip.com/en-us/development-tool/PG164150" target=_blank>PICKIT5, niewiele droższy od poprzednich a mający dodatkowo możliwość programowania bez komputera, w "polu". Poniżej opisuje instalację wymaganego oprogramowania w środowisku Windows 11.
