@@ -49,7 +49,7 @@
 </ul>
 
 <h3>Power</h3>
-<p>The best solution is to use a 5V power supply, e.g. USB). Current consumption is approximately 100mA @ 5V.</p>
+<p>The best solution is to use a 5V power supply, e.g. USB. Current consumption is approximately 100mA @ 5V.</p>
 
 
 <h2 id="en3">Flash programming guide</h2>
