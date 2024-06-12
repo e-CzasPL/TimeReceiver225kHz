@@ -1,28 +1,30 @@
 # TimeReceiver225kHz
 <html>
 <body>
-<H3>A simple receiver module for decoding a time frame from a 225kHz transmitter PCSK-225 in Solec Kujawski, Poland</h3>
+<H1>A simple receiver module for decoding a time frame from a 225kHz transmitter PCSK-225 in Solec Kujawski, Poland</h1>
 
 <H2>Content</H2>
 <h3>English</h3>
 <ul>
-  <li>Changes</li>
+  <li><a href="#en1">Changes</li>
   <li><a href="#en1">What's e-Czas</a></li>
-  <li>What's e-Czas Radio?</li>
-  <li>Flash programming guide</li>
+  <li><a href="#en2">What's e-Czas Radio?</a></li>
+  <li><a href="#en1">Flash programming guide</a></li>
 </ul>
 <h3>Polski</h3>
 <ul>
-<li>Co to jest e-Czas?</li>
-<li>Co to jest e-Czas Radio?</li>  
-<li>Instrukcja programowania procesora</li>
+<li><a href="#pl01">Zmiany</a></li>
+<li><a href="#pl1">Co to jest e-Czas?</a></li>
+<li><a href="#pl2">Co to jest e-Czas Radio?</a></li>  
+<li><a href="#pl3">Instrukcja programowania procesora</a></li>
 </ul>
-
+<h2 id="en0">Changes</h2>
+    
 <h2 id="en1">What's e-Czas</h2>
 
 <p>Providing the service of reliable and reliable distribution of official time signals valid in the territory of the Republic of Poland and signals of the Polish implementation of the international coordinated universal time UTC (PL), based on the state standard for time measurement units and frequency, with the status (guarantee) of official time and synchronization monitoring service.
 
-<h2>What's e-Czas Radio?</h2>
+<h2 id="en1">What's e-Czas Radio?</h2>
 
 <p>The e-Czas Radio service is used to distribute coded official time signals in the territory of the Republic of Poland using long radio waves. End-user synchronization accuracy: &lt;0.01 s
 <img src="img/TimeReceiver225kHz.png" alt="Time Receiver 225kHz" width=33% height=33% align="left">
@@ -40,7 +42,7 @@
 </ul>
 
 
-<h2>Flash programming guide</h2>
+<h2 id="en1">Flash programming guide</h2>
 <p>I use <a href="https://www.microchip.com/en-us/development-tool/PG164150" target=_blank>PICKIT5, which is not much more expensive than the previous ones and has the ability to program without a computer, in the "field". Below it describes the installation of the required software in a Windows 11 environment.
 <ol>p
 <li>Install <a href="https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide" target=_blank>MPLAB X IDE</a>
@@ -57,12 +59,13 @@ In the "Universal Serial Bus devices"<br><img section src="img/Picture2.png"><br
 <li>Turn off the power, disconnect the programmer
 </ol>
 
-<h3>Prosty moduł odbiorczy do dekodowania ramek czasu z nadajnika PCSK-225 225kHz w Solcu Kujawskim</h3>
+<h1>Prosty moduł odbiorczy do dekodowania ramek czasu z nadajnika PCSK-225 225kHz w Solcu Kujawskim</h1>
 
-<h2>Co to jest e-Czas</h2>
+
+<h2 id="pl1">Co to jest e-Czas</h2>
 Jest tu usługa dystrybucji wiarygodnej i niezawodnej sygnałów czasu urzędowego, obowiązującego na obszarze Rzeczypospolitej Polskiej i sygnałów polskiej realizacji międzynarodowego uniwersalnego czasu koordynowanego UTC(PL), generowanych w oparciu o państwowy wzorzec jednostek miar czasu i częstotliwości, posiadającego status (gwarancję) czasu urzędowego oraz usługi monitorowania synchronizacji.
 
-<h2>Co to jest e-Czas Radio</h2>
+<h2 id="pl1">Co to jest e-Czas Radio</h2>
 
 <p>Główny Urząd Miar (GUM) uruchomił serwis emitowania kodowanych cyfrowych sygnałów czasu na falach długich, przy wykorzystaniu fali nośnej 225 kHz Programu Pierwszego Polskiego Radia, z nadajnika znajdującego się na terytorium Polski. Jest to technika podobna do systemu DCF77, ale oparta na modulacji fazy sygnału. 
 W efekcie powstała ogólnodostępna możliwość zsynchronizowania z czasem urzędowym dowolnego urządzenia odmierzającego czas na obszarze Polski i dużej części Europy przy wykorzystaniu tanich, energooszczędnych i nieskomplikowanych urządzeń odbiorczych. Wykorzystanie tej techniki pozwala na zsynchronizowanie do czasu urzędowego na obszarze RP wielu urządzeń odmierzających czas z dokładnością kilku lub kilkunastu milisekund. System będzie dodatkowym (redundantnym) źródłem informacji o czasie dla użytkowników znajdujących się na terytorium Polski.
@@ -83,7 +86,7 @@ W efekcie powstała ogólnodostępna możliwość zsynchronizowania z czasem urz
 </ul>
 
 
-<h2>Programowanie procesora</h2>
+<h2 id="pl1">Instrukcja programowania procesora</h2>
 <p>Ja używam <a href="https://www.microchip.com/en-us/development-tool/PG164150" target=_blank>PICKIT5, niewiele droższy od poprzednich a mający dodatkowo możliwość programowania bez komputera, w "polu". Poniżej opisuje instalację wymaganego oprogramowania w środowisku Windows 11.
 <ol>
 <li>Zainstaluj <a href="https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide" target=_blank>MPLAB X IDE</a>
