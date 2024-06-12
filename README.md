@@ -7,7 +7,7 @@
 <h3>English</h3>
 <ul>
   <li>Changes</li>
-  <li>>What's e-Czas</li>
+  <li><a href="#en1>What's e-Czas</a></li>
   <li>What's e-Czas Radio?</li>
   <li>Flash programming guide</li>
 </ul>
@@ -18,7 +18,7 @@
 <li>Instrukcja programowania procesora</li>
 </ul>
 
-<h2>What's e-Czas</h2>
+<h2 id="en1">What's e-Czas</h2>
 
 <p>Providing the service of reliable and reliable distribution of official time signals valid in the territory of the Republic of Poland and signals of the Polish implementation of the international coordinated universal time UTC (PL), based on the state standard for time measurement units and frequency, with the status (guarantee) of official time and synchronization monitoring service.
 
