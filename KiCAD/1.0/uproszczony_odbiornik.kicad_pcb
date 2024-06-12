@@ -841,7 +841,7 @@
 		(at 138.6221 124.7326 180)
 		(descr "Hyper CHIPLED Hyper-Bright LED\n\nLB R99A\nSource: http://www.osram.convergy.de/ ... lb_r99a.pdf")
 		(property "Reference" "LED2"
-			(at 0.7001 -2.2674 -90)
+			(at 0.7001 -2.0134 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9a492550-3a2c-4200-a74a-212b706c66a8")
@@ -1866,6 +1866,7 @@
 			(at 0.153702 -0.810718 90)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "da4614c9-017e-4678-85fc-29a1b9bd3cb6")
 			(effects
 				(font
@@ -3202,7 +3203,7 @@
 		(at 136.2091 124.7326 180)
 		(descr "Hyper CHIPLED Hyper-Bright LED\n\nLB R99A\nSource: http://www.osram.convergy.de/ ... lb_r99a.pdf")
 		(property "Reference" "LED3"
-			(at 0.5731 -2.2674 -90)
+			(at 0.5731 -2.0134 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b58a20cc-4676-4146-a1fe-284ba9b04871")
@@ -6029,7 +6030,7 @@
 		(at 150.8141 96.5386)
 		(descr "THROUGH-HOLE PAD")
 		(property "Reference" "ANT0"
-			(at -2.7321 -1.0346 0)
+			(at -1.3351 -1.1616 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "428a0cab-968f-4a04-9947-b155a2941d60")
@@ -6703,7 +6704,7 @@
 		(at 166.8161 88.7916 180)
 		(descr "Ceramic Chip Capacitor KEMET 0805 reflow solder\n\nMetric Code Size 2012")
 		(property "Reference" "C5"
-			(at 2.9861 0.9076 0)
+			(at 3.1131 1.2378 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "517af490-5337-4d6d-a6a6-9f69a7619670")
@@ -8314,6 +8315,7 @@
 			(at 0.6969 -0.9076 90)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "07af24f6-e258-4e5e-b659-6cb3ac43ae2c")
 			(effects
 				(font
@@ -10214,6 +10216,7 @@
 			(at 0.4683 -1.2124 90)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7e6e170a-0503-4566-9ff4-fc71fd6de139")
 			(effects
 				(font
@@ -11109,6 +11112,7 @@
 			(at -0.9541 0.078282 90)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ddcc0c16-1832-4f95-be29-3c16a0fb394a")
 			(effects
 				(font
@@ -14717,6 +14721,7 @@
 			(at 0.4683 6.8394 90)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c85194b6-05c6-4158-8cdf-5e3473177ad2")
 			(effects
 				(font
@@ -15298,14 +15303,66 @@
 		(layer "Edge.Cuts")
 		(uuid "ec5fa02a-49ef-421d-9790-9c5f44d4888a")
 	)
+	(gr_text "NMEA"
+		(at 126.7714 126.2126 0)
+		(layer "F.SilkS")
+		(uuid "0445aab8-d437-46ff-ba06-7326a8fd9c56")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GND"
-		(at 165.8112 119.9642 0)
-		(layer "F.Cu")
+		(at 165.354 120.3706 0)
+		(layer "F.SilkS")
 		(uuid "13fb5510-d42d-4536-8ce2-084aa037b793")
 		(effects
 			(font
 				(size 1.5 1.5)
 				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "T1kHz"
+		(at 134.1882 83.566 90)
+		(layer "F.SilkS")
+		(uuid "44318ef9-33ce-498e-994f-a49cb10f2596")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 170.5356 87.884 90)
+		(layer "F.SilkS")
+		(uuid "7ea25f9b-b397-4ecc-9668-2396207bea38")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+5V"
+		(at 170.6372 98.552 90)
+		(layer "F.SilkS")
+		(uuid "f58cbe28-9b79-4583-b205-b35c0c564791")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -18597,12 +18654,10 @@
 				(xy 166.509665 121.495978) (xy 166.457016 121.623085) (xy 166.4486 121.691981) (xy 166.4486 121.8374)
 				(xy 167.308923 121.8374) (xy 167.279058 121.889127) (xy 167.2479 122.005408) (xy 167.2479 122.125792)
 				(xy 167.279058 122.242073) (xy 167.308923 122.2938) (xy 166.448599 122.2938) (xy 163.935841 122.2938)
-				(xy 161.779116 120.075453) (xy 165.983678 120.075453) (xy 170.604886 120.075453) (xy 170.604886 117.954603)
-				(xy 165.983678 117.954603) (xy 165.983678 120.075453) (xy 161.779116 120.075453) (xy 161.40947 119.695246)
-				(xy 161.382027 119.639456) (xy 161.381 119.62512) (xy 161.381 116.785563) (xy 166.1947 116.785563)
-				(xy 166.197592 116.816408) (xy 166.243031 116.946269) (xy 166.324731 117.056968) (xy 166.43543 117.138668)
-				(xy 166.565292 117.184107) (xy 166.565291 117.184107) (xy 166.596137 117.187) (xy 167.2229 117.187)
-				(xy 167.6793 117.187) (xy 168.306063 117.187) (xy 168.336908 117.184107) (xy 168.466769 117.138668)
+				(xy 161.40947 119.695246) (xy 161.382027 119.639456) (xy 161.381 119.62512) (xy 161.381 116.785563)
+				(xy 166.1947 116.785563) (xy 166.197592 116.816408) (xy 166.243031 116.946269) (xy 166.324731 117.056968)
+				(xy 166.43543 117.138668) (xy 166.565292 117.184107) (xy 166.565291 117.184107) (xy 166.596137 117.187)
+				(xy 167.2229 117.187) (xy 167.6793 117.187) (xy 168.306063 117.187) (xy 168.336908 117.184107) (xy 168.466769 117.138668)
 				(xy 168.577468 117.056968) (xy 168.659168 116.946269) (xy 168.704607 116.816408) (xy 168.7075 116.785563)
 				(xy 168.7075 116.3088) (xy 167.6793 116.3088) (xy 167.6793 117.187) (xy 167.2229 117.187) (xy 167.2229 116.3088)
 				(xy 166.1947 116.3088) (xy 166.1947 116.785563) (xy 161.381 116.785563) (xy 161.381 113.864563)
