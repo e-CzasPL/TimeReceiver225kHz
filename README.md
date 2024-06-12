@@ -20,9 +20,9 @@
 </ul>
 <h2 id="en0">Changes</h2>
 <ul>
-  <li><b>2024-06-11:</b> Damian Jabłoński found a mistake in the scheme. This caused the processor to operate unstablely. Resistor R2 20k (shown in the current schematic) should be added to fix the error.</li>
+  <li><b>2024-06-11:</b> Thanks to Damian Jabłoński, who found an error in the scheme. This caused the processor to operate unstablely. Resistor R2 20k (shown in the current schematic) should be added to fix the error.</li>
    <li><b>2024-06-12:</b> 
-   The repository contains corrected versions of the project files in KiCAD. In the KiCAD/1.0/bom folder you can find the interactive BOM in HTML. In the KiCAD/1.0/production folder, you can find production (Gerber) files for fixed PCB.
+   The repository contains corrected versions of the project files in KiCAD. In the KiCAD/1.0/bom folder, you can find the interactive BOM in HTML. In the KiCAD/1.0/production folder, you can find production (Gerber) files for fixed PCB.
    </li>
 </ul>
  
