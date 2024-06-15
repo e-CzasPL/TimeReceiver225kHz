@@ -24,6 +24,9 @@
    <li><b>2024-06-12:</b> 
    The repository contains corrected versions of the project files in KiCAD. In the KiCAD/1.0/bom folder, you can find the interactive BOM in HTML. In the KiCAD/1.0/production folder, you can find production (Gerber) files for fixed PCB.
    </li>
+      <li><b>2024-06-14:</b> The repository contains corrected versions firmware. It doesn't need the resistor R2 (20k). Currently is used internal pull-up resistor.
+   </li>
+
 </ul>
  
     
@@ -75,9 +78,11 @@ In the "Universal Serial Bus devices"<br><img section src="img/Picture2.png"><br
 <h2 id="pl0">Zmiany</h2>
 <ul>
   <li><b>2024-06-11:</b> Dziękuję Damianowi Jabłońskiemu, który znalazł błąd w schemacie i opracował poprawkę. Błąd skutkował niestabilną pracą procesora. Rozwiązaniem jest dolutowanie rezystora R2 między pinem 3 złącza SV2 a VDD rezystora 20k (R2). Poprawka naniesiona jest na aktualną wersję projektu w KiCAD</li>
-   <li><b>2024-06-12:</b> 
-   Repozytorium zawiera poprawione pliki projektu. W folderze KiCAD/1.0/bom znajdziesz interaktywny BOM w HTML ułatwiający montaż, w foderze KiCAD/1.0/production są aktualne pliki produkcyjne (Gerber) poprawionego PCB - można je np. wysłać do produkcji (bez rozpakowania).
+   <li><b>2024-06-12:</b> Repozytorium zawiera poprawione pliki projektu. W folderze KiCAD/1.0/bom znajdziesz interaktywny BOM w HTML ułatwiający montaż, w foderze KiCAD/1.0/production są aktualne pliki produkcyjne (Gerber) poprawionego PCB - można je np. wysłać do produkcji (bez rozpakowania).
    </li>
+      <li><b>2024-06-14:</b> Repozytorium zawiera poprawiony plik HEX z firmware.  Nie jest konieczne umieszczanie rezystora R2(20k). Obecnie używany jest wewnętrzny rezystor pull-up.
+   </li>
+
 </ul>
 
 <h2 id="pl1">Co to jest e-Czas</h2>
