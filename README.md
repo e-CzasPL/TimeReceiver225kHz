@@ -127,12 +127,12 @@ W sekcji "Universal Serial Bus devices"<br><img src="img/Picture2.png"><br>Jeże
 <li>Wyłączyć zasilanie, odłączyć programator
 </ol>
 
-<h2>Projektu połaczone</h2>
+<h2>Projekty połączone</h2>
 <ol>
 <li><a href="https://github.com/J-K-Kowalski/PCSK225-Antenna" target="_blank">Antena aktywna na tranzystorze FET</a></li>
 <li><a href="https://github.com/J-K-Kowalski/PCSK225_RECV_USB" target="_blank">Odbiornik z interfejsem USB</a></li>
-<li><a href="https://github.com/sp6hfe/e-CzasPL" target="_blank">e-CzasPL Radio reference C++ data decoder by SP6HFE</a></li>
 <li><a href="https://github.com/sp5wwp/e-Czas" target="_blank">SP5WWP - Dekoder e-Czas</a></li>
+<li><a href="https://github.com/sp6hfe/e-CzasPL" target="_blank">e-CzasPL Radio reference C++ data decoder by SP6HFE</a></li>
 </ol>
 
 <p>Jurek K. Kowalski
