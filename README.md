@@ -127,7 +127,7 @@ W sekcji "Universal Serial Bus devices"<br><img src="img/Picture2.png"><br>Jeże
 <li>Wyłączyć zasilanie, odłączyć programator
 </ol>
 
-<h2>Projektu połaczone</h2>
+<h2>Projekty połączone</h2>
 <ol>
 <li><a href="https://github.com/J-K-Kowalski/PCSK225-Antenna" target="_blank">Antena aktywna na tranzystorze FET</a></li>
 <li><a href="https://github.com/J-K-Kowalski/PCSK225_RECV_USB" target="_blank">Odbiornik z interfejsem USB</a></li>
